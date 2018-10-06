@@ -1,4 +1,4 @@
-function fish
+function jabba
     set fd3 (mktemp /tmp/jabba-fd3.XXXXXX)
     env JABBA_SHELL_INTEGRATION=ON jabba $argv 3> $fd3
     set exit_code \$status
