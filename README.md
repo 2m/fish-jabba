@@ -28,4 +28,9 @@ If using [fundle](https://github.com/danhper/fundle) add the following to `~/.co
 fundle plugin '2m/fish-jabba'
 ```
 
-Reload fish shell and then run `fundle install`.
+Reload fish shell and then run `fundle install`:
+
+```fish
+fish -l
+fundle install
+```
