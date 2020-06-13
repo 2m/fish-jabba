@@ -35,6 +35,11 @@ fundle plugin '2m/fish-jabba'
 
 Reload fish shell and then run `fundle install`.
 
+```fish
+fish -l
+fundle install
+```
+
 ### fisher
 
 Install [fisher](https://github.com/jorgebucaran/fisher):
