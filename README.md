@@ -20,7 +20,7 @@ bash -c "curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | \
          bash && . ~/.jabba/jabba.sh"
 ```
 
-### Fundle
+### fundle
 
 If using [fundle](https://github.com/danhper/fundle) add the following to `~/.config/fish/config.fish`:
 
@@ -29,3 +29,17 @@ fundle plugin '2m/fish-jabba'
 ```
 
 Reload fish shell and then run `fundle install`.
+
+### fisher
+
+Install [fisher](https://github.com/jorgebucaran/fisher):
+
+```fish
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish                                                                                               06:11:04
+```
+
+Add **fish-jabba**:
+
+```fish
+fisher add 2m/fish-jabba
+```
