@@ -40,7 +40,7 @@ Reload fish shell and then run `fundle install`.
 Install [fisher](https://github.com/jorgebucaran/fisher):
 
 ```fish
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish                                                                                               06:11:04
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 ```
 
 Add **fish-jabba**:
