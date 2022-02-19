@@ -51,7 +51,7 @@ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fi
 Add **fish-jabba**:
 
 ```fish
-fisher add 2m/fish-jabba
+fisher install 2m/fish-jabba
 ```
 
 ### Oh My Fish!
